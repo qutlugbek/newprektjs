@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtixon</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+
+    <div class="max-w-md w-full bg-white p-8 rounded-lg shadow-md">
+
+        <button id="start-btn" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+            O'yinni boshla 😍😍😍
+        </button>
+
+
+        <div id="question-container" class="hidden mt-4">
+            <div class="mb-4">
+                <h2 id="question-text" class="text-xl font-semibold mb-2"></h2>
+                <input type="number" id="answer-input" class="w-full border border-gray-300 p-2 rounded mb-4"
+                    placeholder="Javobni kiriting">
+            </div>
+            <button id="submit-btn" class="w-full bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">
+                Javobni yubor
+            </button>
+        </div>
+
+
+        <div id="result-container" class="hidden mt-4 text-center">
+            <h3 id="result-text" class="text-lg font-semibold mb-4"></h3>
+            <button id="play-again-btn" class="w-full bg-purple-500 text-white py-2 px-4 rounded hover:bg-purple-600">
+                Yana o'yna
+            </button>
+        </div>
+    </div>
+
+
+  <script src="./main.js">
+
+  </script>
+</body>
+
+</html>
